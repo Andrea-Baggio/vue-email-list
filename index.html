@@ -11,13 +11,21 @@
             }
         </style>
 
+        <!-- axios -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+
         <!-- js -->
         <script src="https://cdn.jsdelivr.net/npm/vue@2.7.13/dist/vue.js" defer></script>
         <script src="js/script.js" defer></script>
     </head>
+    
     <body>
         <div v-cloak id="app">
-            
+            <h1>Random e-mail generator</h1>            
+            <button @click="getEmail">Generate</button>
+            <ul v-for="">
+                <li></li>
+            </ul>
         </div>
     </body>
 </html>
