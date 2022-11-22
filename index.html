@@ -23,7 +23,7 @@
         <div v-cloak id="app">
             <h1>Random e-mail generator</h1>            
             <button @click="getEmail">Generate</button>
-            <ul v-for="">
+            <ul v-for="element in email">
                 <li>{{ email }}</li>
             </ul>
         </div>
